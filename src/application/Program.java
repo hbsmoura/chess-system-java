@@ -1,10 +1,12 @@
 package application;
 
+import boardgame.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
 
-		System.out.println("First step to create a chess system in Java");
+		System.out.println(new Position(5,3));
 	}
 
 }
